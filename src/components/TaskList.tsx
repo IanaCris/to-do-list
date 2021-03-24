@@ -24,6 +24,7 @@ export function TaskList() {
       }];
 
       setTasks(novaTask);
+      setNewTaskTitle('');
 
     } else {
       console.log("Falta escrever a descricao da tarefa");
